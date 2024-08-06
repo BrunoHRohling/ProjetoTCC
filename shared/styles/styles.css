@@ -1,8 +1,50 @@
-/* botao */
+@font-face{
+    src: url(../../storage/fonts/ModesticSans.ttf);
+    font-family: Modestic-Sans;
+}
+
+/* Botão */
 .btn a{
     text-decoration: none;
     color: white;
     background-color: #4f9de6;
     padding: 10px;
     border-radius: 5px;
+}
+
+/* Form do register */
+.form-register {
+    text-align:center;
+    font-family: Modestic-Sans;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 15%;
+}
+
+/* Texto de bem vindo (index) */
+#welcomeH1{
+    color:white;
+    position:absolute; 
+    top:10%; 
+    left:10%;
+    font-size: 20px;
+    font-family: Modestic-Sans;
+}
+
+/* n tem uso ainda pq eu n consigo botar pra funfar :( */
+#whiteLogo{
+    content: url(../../storage/images/whiteLogo.png);
+    position: absolute;
+    top:-6%; 
+    left:53%
+    height = 300, width = 760;
+}
+
+/* Background pro body */
+body{
+    background-image: url(../../storage/images/background.png);
+    background-size:100% 100%; 
+    background-repeat: no-repeat;
+    height: 100vh;
 }
